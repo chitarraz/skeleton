@@ -1,0 +1,16 @@
+.mainPanel {
+  // [theme.breakpoints.up(md)]: {
+  //   width: `calc(100% - ${drawerWidth})`;
+  // };
+  position: relative;
+  float: right;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  width: calc(100% - 240px);
+  float: right;
+}

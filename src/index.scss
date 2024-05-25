@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$primary: #0a3c75;
+$secondary: #0a3c75;
+$button: #009cde;
+$background: #FFFFFF;
+$blue: #73d6fb;
+$font-color: #999;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  // background: linear-gradient($primary, transparent);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.button {
+  background-color: $primary !important;
+  color: #FFF !important;
+}
+
+.button-secondary {
+  background-color: #FFF !important;
+  color: $primary !important;
+  border: $primary 2px solid !important;
+}
